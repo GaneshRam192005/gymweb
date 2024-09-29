@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./ProfilePage.css";
 import { Link } from "react-router-dom";
-
 const ProfilePage = () => {
   const [userDetails, setUserDetails] = useState(null);
   const [profileImage, setProfileImage] = useState(null);
